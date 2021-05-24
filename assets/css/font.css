@@ -1,0 +1,11 @@
+@font-face
+{
+    font-family: 'Cookie';
+    src: url('../fonts/Cookie-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Farmhouse';
+    src: url('../fonts/FarmhouseCountry-Regular.otf') format('opentype');
+}

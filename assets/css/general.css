@@ -1,0 +1,130 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-attachment: fixed;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+h1, h2 {
+    font-family: 'Farmhouse';
+}
+
+a h1 {
+    font-size: 95px;
+    background: -webkit-linear-gradient(45deg, #aca24c, #58460e, #302c06);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 30px; 
+}
+
+a, article p, li, a p {
+    font-family: 'Cookie';
+    color: #000000;
+}
+
+article h3 {
+    font-size: 35px;
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, #aca24c, #58460e, #302c06);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 40px; 
+}
+
+article p {
+    font-size: 18px;
+    text-align: center;
+}
+
+div a {
+    font-size: 20px
+}
+
+header ul li {
+    font-size: 22px;
+}
+
+section h2 {
+    font-size: 55px;;
+}
+
+section img {
+    border: 2px solid  #aca24c; 
+    border-radius: 15px;
+}
+
+header a:hover, article a:hover, section a:hover {
+    text-decoration-line: none;
+}
+
+nav{
+    padding-left: 170px;
+}
+ 
+nav a {
+    color: #000000;
+}
+
+nav a:hover {
+    color: #58460e;
+    font-weight: bold;
+}
+
+
+
+section .marge {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+article {
+    background-color: #ffffff;
+    border: 2px solid  #aca24c;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Cookie';
+}
+
+.ttes_recettes {
+    font-family: 'Cookie';
+    text-align: center;
+    padding-left: 0px;
+}
+
+.logo {
+    margin-left: 200px;
+}
+
+.navigation {
+    margin-right: -150px;
+}
+
+.img_recette {
+    text-align: right;
+}
+
+.recettes h2 {
+    text-align: center;
+}
+
+.recettes .ingredients {
+    font-size: 20px;
+    font-family: 'Cookie';
+    text-align: center;
+    border-right: 3px solid #58460e;
+}
+
+.recettes .etapes {
+    font-size: 27px;
+}
+
+.recettes h2 {
+    margin-bottom: 60px;
+}
+
+.recettes {
+    margin-bottom: 60px;
+}
