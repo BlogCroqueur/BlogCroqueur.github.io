@@ -1,1 +1,23 @@
+/*tablette*/
+@media (min-width: 768px) {
+   
+}
 
+/*laptop*/
+@media (min-width: 1024px) {
+    
+}
+
+/*ecran*/
+@media (min-width: 1440px) {
+    body {
+        background-position-x: right;
+    }
+    a h1 {
+        font-size: 95px;
+        padding-top: 30px; 
+    }
+    .logo {
+        margin-left: 200px;
+    }
+}

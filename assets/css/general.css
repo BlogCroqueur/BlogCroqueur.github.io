@@ -1,8 +1,12 @@
 body {
     background-image: url(../images/bg.jpg);
     background-attachment: fixed;
-    background-position-x: right;
+    background-position-x: left;
     background-position-y: top;
+}
+
+header {
+    height:
 }
 
 h1, h2 {
@@ -10,11 +14,11 @@ h1, h2 {
 }
 
 a h1 {
-    font-size: 95px;
+    font-size: 60px; 
     background: -webkit-linear-gradient(45deg, #aca24c, #58460e, #302c06);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-top: 30px; 
+    padding-top: 15px;
 }
 
 a, article p, li, a p {
@@ -32,7 +36,7 @@ article h3 {
 }
 
 article p {
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -94,10 +98,6 @@ footer {
     padding-left: 0px;
 }
 
-.logo {
-    margin-left: 200px;
-}
-
 .navigation {
     margin-right: -150px;
 }
@@ -128,3 +128,5 @@ footer {
 .recettes {
     margin-bottom: 60px;
 }
+
+
